@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri:  "mongodb+srv://admin:odtech2023@odtech-cluster.ikg5q7r.mongodb.net/?retryWrites=true&w=majority"
+      uri:  ${MONGODB_URI}
       database: odtechDB
 server:
   servlet:
